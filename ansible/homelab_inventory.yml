@@ -1,1 +1,13 @@
-#
+[proxmox_hosts]
+hla-pve1.homelab.local
+hla-pve2.homelab.local
+hla-pve3.homelab.local
+
+[vars:proxmox_hosts]
+
+[linux_fileserver]
+hl-fs02.homelab.local
+
+
+[vars:linux_fileserver]
+username=root
